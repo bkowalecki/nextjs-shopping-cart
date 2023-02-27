@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
-import styles from '../styles/Navbar.module.css';
+import styles from '../styles/NavBar.module.css';
 const Navbar = () => {
 
   // Selecting cart from global state
