@@ -1,11 +1,11 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 3rem;
+  align-self: center;
 }
 .small {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
 }
 .large {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  display: flex;
+  justify-content: center;
 }
