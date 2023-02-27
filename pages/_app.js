@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/globals.css";
 
 function App({ Component, pageProps }) {
   return (
-<div className="wrapper">
-      <Navbar />
+  <div className="wrapper">
+      <NavBar />
       <Component {...pageProps} />
       <Footer />
     </div>
