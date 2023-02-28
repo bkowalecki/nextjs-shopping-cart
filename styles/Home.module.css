@@ -1,9 +1,10 @@
 .container {
   margin: 0 auto;
   padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-bottom: 14vh;
   /* background-color:  #ECECEC; */
-  background-color: #242424;
+  /* background-color: #242424; */
+
 }
 .small {
   display: flex;

@@ -16,9 +16,10 @@
     width: 100%;
     margin-top: 0.5rem;
     padding: 0.75rem 0;
-    background: transparent;
+    color: #0066CC;
+    background-color: #ECECEC;
     text-transform: uppercase;
-    border: 2px solid black;
+    border: 2px solid white;
     cursor: pointer;
   }
   .button:hover {

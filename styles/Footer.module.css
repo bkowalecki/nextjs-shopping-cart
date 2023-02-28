@@ -1,8 +1,25 @@
 .footer {
-    padding: 1rem 0;
-    color: black;
-    text-align: center;
+    height: 55px;
+    width: 100%;
+    background-color: #FF7F50;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
   .brand {
-    color: #f9826c;
+    color: blue;
+  }
+
+
+  @media only screen and (max-width : 1024px){ /* You can edit the max-width value to match what you need */
+    .footer {
+      height: 55px;
+      width: 100%;
+      background-color: #FF7F50;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
   }

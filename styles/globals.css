@@ -7,14 +7,24 @@
  
 }
 
+html{
+  margin:0;
+   padding:0;
+   height:100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #242424;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
 }
 
 .wrapper {
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 1000px) {

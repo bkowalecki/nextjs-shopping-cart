@@ -2,13 +2,19 @@
     font-size: 2rem;
     text-transform: uppercase;
     margin: 0 1rem 1rem;
+    padding: 2vh;
   }
   .container {
     padding: 0 2rem;
     margin-bottom: 2rem;
-    background-color: #56d0ae;
+    background-color: #242424;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 815px;
   }
   .cards {
+   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2.5rem 1rem;

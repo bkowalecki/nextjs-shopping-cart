@@ -1,33 +1,46 @@
 .card {
-    margin: 0.5rem;
+    margin: 0.8rem;
     position: relative;
     text-align: center;
-  }
-  .image {
+}
+  
+.image {
     object-fit: cover;
     border: 1px solid black;
     transition: all .5s ease-in;
     aspect-ratio: 13/7;
     width: 100%;
+    
   }
+
+
+
+
   .info {
+    box-shadow: #242424 0px 7px 29px 0px;
     position: absolute;
     top: 50%;
     left: 50%;
-    background: white;
-    padding: 1.5rem;
+    background: #ECECEC;
+    padding: 2rem;
     text-align: center;
     transform: translate(-50%, -50%);
-    opacity: 0.8;
+    opacity: 0.9;
     border: 1px solid black;
     cursor: pointer;
+    font-size: 1.5rem;
+    color: #0066CC;
   }
+.info > *{
+    
+}
+
   .card:hover .image {
     transform: scale(1.05);
 
   }
   .card:hover .info {
-    opacity: 0.9;
+    opacity: 1;
   }
 
   .large .iamge{
@@ -39,7 +52,7 @@
    @media only screen and (min-width:769px) and (max-width: 1024px) {
  
     .image{
-        width: 75%;
+        width: 100%;
     }
   }
 

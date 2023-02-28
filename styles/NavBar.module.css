@@ -1,13 +1,16 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 2rem;
     background-color: 	#FF7F50;
     color: #242424;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
   }
   .logo {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -25,4 +28,23 @@
   }
   .navlink a:hover {
     color: #0066CC;
+  }
+
+
+  /* Tablet */
+@media only screen and (max-width: 768px) {
+
+  .navbar{
+    font-size: 1rem;
+    padding: 1rem .5rem;
+  }
+
+  .logo{
+    font-size: 1.2rem;
+  }
+
+  .navlink {
+    margin: 0 0.25rem;
+   
+  }
   }
