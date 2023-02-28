@@ -1,16 +1,64 @@
 .container {
-  padding: 0 3rem;
   margin: 0 auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /* background-color:  #ECECEC; */
+  background-color: #242424;
 }
 .small {
   display: flex;
+  justify-content: center;
 }
 .large {
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 
-@media only screen and (max-width: 1000px) {
+.large > *.img{
+
+}
+
+/* Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .container{
+    
+  }
+
+  .large{
+    flex-direction: column;
+  }
+  
+  .small {
+    flex-direction: column;
+  }
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .container{
+    
+  }
+
+  .large{
+    flex-direction: column;
+  }
+  
+  .small {
+    flex-direction: column;
+  }
+}
+
+/* Phone */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  .container{
+    
+  }
+
   .large{
     flex-direction: column;
   }

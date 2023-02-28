@@ -1,12 +1,14 @@
 .card {
     margin: 0.5rem;
     position: relative;
-
+    text-align: center;
   }
   .image {
     object-fit: cover;
     border: 1px solid black;
     transition: all .5s ease-in;
+    aspect-ratio: 13/7;
+    width: 100%;
   }
   .info {
     position: absolute;
@@ -26,4 +28,34 @@
   }
   .card:hover .info {
     opacity: 0.9;
+  }
+
+  .large .iamge{
+    width: 800px;
+  }
+
+
+   /* Laptop */
+   @media only screen and (min-width:769px) and (max-width: 1024px) {
+ 
+    .image{
+        width: 75%;
+    }
+  }
+
+  /* Tablet */
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+  
+    .image{
+        width: 85%;
+    }
+  }
+
+
+   /* Phone */
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+   
+    .image{
+        width: 96%;
+    }
   }

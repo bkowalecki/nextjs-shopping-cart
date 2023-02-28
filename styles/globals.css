@@ -4,16 +4,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 200vw;
+  background-color: #242424;
 }
 
 .wrapper {
- 
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  body{
+   
+  }
 }
