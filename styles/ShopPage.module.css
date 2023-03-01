@@ -12,10 +12,9 @@
    
   }
   .cards {
-   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2.5rem 1rem;
+    gap: 2.5rem .25rem;
     place-items: center;
   }
 

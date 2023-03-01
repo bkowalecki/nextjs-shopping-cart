@@ -1,5 +1,5 @@
 .container {
-    padding: 1rem;
+    
     text-align: center;
     color: #ECECEC;
   }
@@ -12,9 +12,10 @@
   .header div {
     color: #ECECEC;
     flex: 1;
+    align-items: center;
     text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: .75rem;
+    font-weight: 400;
     padding-bottom: 0.5rem;
     text-transform: uppercase;
     border-bottom: 2px solid black;
