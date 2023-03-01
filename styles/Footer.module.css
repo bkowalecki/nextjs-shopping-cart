@@ -2,10 +2,10 @@
     height: 55px;
     width: 100%;
     background-color: #FF7F50;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    text-align: center;
+    align-items: baseline;
+    margin-top: auto;
+    padding: 1.5vh;
   }
   .brand {
     color: blue;

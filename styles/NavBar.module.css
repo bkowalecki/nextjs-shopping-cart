@@ -11,7 +11,7 @@
   }
   .logo {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
   }
   .links {
@@ -21,6 +21,7 @@
     list-style: none;
     margin: 0 0.75rem;
     text-transform: uppercase;
+    text-align: center;
   }
   .navlink a {
     text-decoration: none;
